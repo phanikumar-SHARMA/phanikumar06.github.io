@@ -1,0 +1,291 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <title>OUR WEBSITE</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color:#3F000F;
+            <!--background-image:url("https://i.postimg.cc/qgb9LspQ/back.webp");-->
+            background-size: cover;
+            background-position:auto;
+        }
+
+        nav {
+            background-color:#FAAFBA;
+            padding: 10px 0;
+            border-color: black;
+            border-radius: 30px;
+            color:black;
+        }
+
+        .navbar-toggler-icon {
+            background-color: black;
+        }
+
+        nav a {
+            color: white;
+            margin-right: 20px;
+        }
+
+        section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        h2 {
+            margin-bottom: 30px;
+        }
+
+        .open {
+            border-color: blue;
+            border-radius: 45px;
+            border-style: double;
+            background-color: #FFE6E8;
+            color: #2F0909;
+            cursor: pointer;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .open:hover {
+            transform: scale(1.1);
+            border-color: black;
+            border-radius: 45px;
+            border-style: dotted;
+            background-color: #C4AEAD;
+            color: black;
+        }
+
+        marquee {
+            background-color: #E9CFEC;
+            color: black;
+        }
+
+        .gallery img {
+            max-width: 300px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            border-color: black;
+            border-style: solid;
+            cursor: pointer;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.1);
+        }
+
+        /* Modal Styles */
+       #image-container {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.75);
+      display: none;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #image {
+      max-width: 50%;
+      max-height: 50%;
+      object-fit: cover;
+      border-style:solid;
+      border-color:black;
+    }
+
+    .preview-photo {
+      max-width: 50%;
+      max-height: 50%;
+      object-fit: cover;
+    }
+
+    #close-button {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      background-color:red;
+      border: none;
+      color: white;
+      cursor: pointer;
+    }
+
+    #close-button:hover {
+      background-color: rgba(255, 255, 255, 0.25);
+    }
+.mapouter{
+
+position:center;
+
+
+height:890px;
+
+width:1080px
+;
+background:#fff
+;
+border-style:solid;
+border-color:black;
+} 
+.maprouter a{
+
+color:#fff !important;
+position:absolute !important;
+top:0 !important;
+z-index:0 !important;
+}
+.my{
+height:50px;
+text-align:center;
+border-style:solid;
+border-color:black;
+border-radius:30px;
+color:black;
+background-color:#E8ADAA;
+}
+.name1{
+border-style:solid;
+background-image:url("https://i.ibb.co/XzMg48q/qr.webp");
+background-size: cover;
+background-position: center;
+border-radius:30px;
+color:brown;
+cursor: pointer;
+transition: transform 0.3s ease-in-out;
+
+}
+.name1:hover{
+transform: scale(1.1);
+border-style:dotted;
+background-image:none;
+background-color: rgba(300, 300, 300, 0.5);
+background-size: cover;
+background-position: center;
+border-radius:30px;
+color:brown;
+
+}
+.name2{
+border-style:solid;
+background-image:url("https://i.ibb.co/XzMg48q/qr.webp");
+background-size: cover;
+background-position: center;
+border-radius:30px;
+color:brown;
+cursor: pointer;
+transition: transform 0.3s ease-in-out;
+
+}
+.name2:hover{
+transform: scale(1.1);
+border-style:dotted;
+background-image:none;
+background-color: rgba(300, 300, 300, 0.5);
+background-size: cover;
+background-position: center;
+border-radius:30px;
+color:brown;
+
+}
+.contact{
+color:white;
+}
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#" style="color:black;">SITE FOR SALE</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link"  style="color:black;" href="#images"><u>IMAGES</u></a></li>
+                <li class="nav-item"><a class="nav-link" style="color:black;" href="#qr"><u>QR ZONE</u></a></li>
+                <li class="nav-item"><a class="nav-link" style="color:black;" href="#maps"><u>MAP</u></a></li>
+                <li class="nav-item"><a class="nav-link" style="color:black;" href="#contact"><u>CONTACT</u></a></li>
+            </ul>
+        </div>
+    </nav>
+    </br></br>
+    <div class="open">
+        <h1 align="center">WELCOME TO OUR WEBPAGE</h1></br>
+        <h3 align="center">BELOW IS OUR VIEWS OF SITES</h3>
+    </div>
+    </br>
+    <marquee>HELLO ! WELCOME TO OUR WEBSITE HERE IS THE END TO END DISCRIPTION OF OUR SITE FOR SALE</marquee>
+    </br></br>
+<section id="images">
+     <img id="preview-image" src="https://i.ibb.co/174gqJs/Anjanadr-Backside-1.jpg" alt="Image Preview" />
+     <img id="preview-photo" src="https://i.ibb.co/0yYDWsL/Anjanadri-front-3.jpg" alt="Image Preview 2" alt="Image Preview"/>
+
+  <div id="image-container">
+    <img id="image" src="" alt="Fullscreen Image" />
+    <button id="close-button">CLOSE IMAGE</button>
+  </div>
+</section>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.min.js"></script>
+
+    <script>
+   const previewImage = document.getElementById('preview-image');
+   const previewphoto = document.getElementById('preview-photo');
+    const imageContainer = document.getElementById('image-container');
+    const closeButton = document.getElementById('close-button');
+
+    previewImage.addEventListener('click', () => {
+      imageContainer.style.display = 'flex';
+      const imageSource = previewImage.src;
+      document.getElementById('image').src = imageSource;
+    });
+ previewIphoto.addEventListener('click', () => {
+      imageContainer.style.display = 'flex';
+      const imageSource = previewphoto.src;
+      document.getElementById('photo').src = imageSource;
+    });
+
+    closeButton.addEventListener('click', () => {
+      imageContainer.style.display = 'none';
+    });
+</script>
+
+<section id="qr">
+<div class="name1">
+<h1 style="text-align:center;">RAMANA MURTHY</h1>
+<h3>HELLO DEAR VISITORS THIS IS A BEAUTIFUL SITE WITH GOOD SURROUNDINGS AND GOOD VIEWS</BR> FOR OTHER INFORMATION RELATED TO THIS SCAN QR (or) CONTACT ME</h3>
+<a href='https://postimg.cc/qtTqjVps' target='_blank'><img src='https://i.postimg.cc/qtTqjVps/CODE.png' border='0' alt='CODE'/></a>
+</br></br></div></br></br></br>
+<div class="name2">
+<h1 style="text-align:center;">MURALI KRISHNA</h1>
+<h3>HELLO DEAR VISITORS THIS IS A BEAUTIFUL SITE WITH GOOD SURROUNDINGS AND GOOD VIEWS</BR> FOR OTHER INFORMATION RELATED TO THIS SCAN QR (or) CONTACT ME</h3>
+<a href='https://postimg.cc/CdDtp30B' target='_blank'><img src='https://i.postimg.cc/CdDtp30B/CODE2.png' border='0' alt='CODE2'/></a>
+</br></br></div>
+</section>
+<section id="contact">
+<div class="contact">
+<h2 align="center">HERE IS THE CONTACT DETAILS FOR CONTACTING US </BR>1)  7013111187  </br>2)  9985386521
+</div>
+</section>
+<section id="maps">
+<div class="my">
+<h2>HERE IS THE ROUTE MAP OF REACHING BARLI VILLAGE </h2></br></br>
+</div>
+</div>
+</br></br><div class="mapouter"><div class="gmap_canvas"><iframe src="https://maps.google.com/maps?q=barli%20village,balijipeta%20mandal&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" frameborder="0" scrolling="no" style="width: 1080px; height: 890px;"></iframe>
+<a href="https://blooketjoin.org/blooket-login/">blooket login</a><style>.gmap_canvas{overflow:hidden;height:890px;width:1080px}.gmap_canvas iframe{position:relative;z-index:2}
+</section></br></br></br>
+</body>
+
+</html>
